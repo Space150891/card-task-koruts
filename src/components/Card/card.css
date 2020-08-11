@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+.card {
+    background-color: #F2F2F2;
+    width: 503px;
+    padding: 12px;
+}
+.card-content {
+    width: 491px;
+    height: 237px;
+    border: 4px solid #000000;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+
+}
+.card-artist-info {
+    width: 65%;
+    padding: 18px;
+    font-family: 'Alef', sans-serif;
+}
+.card-image img {
+    width: 155px;
+    height: 229px;
+}
+.artist-card-year {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+}
+.artist-card-show {
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0;
+}
+.artist-card-name {
+    font-size: 22px;
+    margin: 0;
+   
+}
+.artist-card-dance {
+    font-family: 'Assistant', sans-serif;
+    font-size: 14px;
+    padding-top: 25px;
+    
+}
