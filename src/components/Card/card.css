@@ -10,7 +10,6 @@
     width: 491px;
     height: 237px;
     border: 4px solid #000000;
-    box-sizing: border-box;
     display: flex;
     flex-flow: row nowrap;
     margin: 0;
@@ -20,30 +19,29 @@
 .card-artist-info {
     width: 65%;
     padding: 18px;
-    font-family: 'Alef', sans-serif;
+    font-family: 'Alef', sans-serif;  
 }
 .card-image img {
     width: 155px;
-    height: 229px;
+    height: 237px;
 }
 .artist-card-year {
     font-size: 20px;
     font-weight: normal;
-    margin: 0;
+    margin: 0; 
 }
 .artist-card-show {
     font-weight: bold;
     font-size: 28px;
-    margin: 0;
+    margin: 0;    
 }
 .artist-card-name {
     font-size: 22px;
     margin: 0;
-   
 }
+
 .artist-card-dance {
     font-family: 'Assistant', sans-serif;
     font-size: 14px;
     padding-top: 25px;
-    
 }

@@ -9,16 +9,18 @@ type CardProps = {
     year: number,
 }
 
+
 type CardType = React.FunctionComponent<CardProps>
 const Card: CardType = (props: CardProps) => {
+    
     return (
         <div className='card'>
             <div className='card-content'>
                 <div className='card-artist-info'>
                     <p className='artist-card-year'>{props.year}</p>
                     <p className='artist-card-show' dir='rtl'>{props.showName}</p>
-                    <p className='artist-card-name' >{props.artistName}</p>
-                    <p className='artist-card-dance' >{props.danceType}</p>
+                    <p className='artist-card-name' dir='rtl'>{props.artistName}</p>
+                    <p className='artist-card-dance' dir='rtl'>{props.danceType}</p>
                 </div>
                 <div className='card-image'>
                     <img src={props.img} alt={props.showName} />
